@@ -1,6 +1,3 @@
-// =====================================================
-// MENU MOBILE
-// =====================================================
 
 const menuButton = document.getElementById("menuButton");
 const nav = document.querySelector(".nav");
@@ -10,11 +7,6 @@ menuButton.addEventListener("click", () => {
     nav.classList.toggle("mobile-active");
 
 });
-
-
-// =====================================================
-// FECHAR MENU AO CLICAR
-// =====================================================
 
 document.querySelectorAll(".nav a").forEach(link => {
 
@@ -27,9 +19,6 @@ document.querySelectorAll(".nav a").forEach(link => {
 });
 
 
-// =====================================================
-// FORMULÁRIO DE RESERVA
-// =====================================================
 
 const form = document.getElementById("reservationForm");
 
